@@ -4,11 +4,11 @@
 // Function with default parameter 
 // ---------------------------------------------
 
-const Func = (a, b = 10) => {
+const func = (a, b = 10) => {
     console.log(a + b); 
 }
    
-Func(20);
+func(20);
 
 // ---------------------------------------------
 // Forof in array + block scoped variable
